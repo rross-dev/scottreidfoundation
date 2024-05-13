@@ -166,6 +166,11 @@ header {
   box-shadow: 0 0px 4px rgba(86, 149, 70, 0.4); 
 }
 
+.signup-btn a{
+  text-decoration: none;
+  color: white;
+}
+
 .carousel {
       width: 600px;
       overflow: hidden;
@@ -673,6 +678,7 @@ nav ul li a.active:hover {
   font-size: 16px;
   cursor: pointer;
 }
+
 
 .signup-btn:hover{
   box-shadow: 0 0px 4px rgba(86, 149, 70, 0.4); 
