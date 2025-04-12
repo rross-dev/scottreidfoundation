@@ -36,7 +36,7 @@ header {
   position: sticky;
   background-color: #3B772D;
   color: black;
-  height: 30px;
+  height: 40px;
   width: 100vw;
   display: flex;
   justify-content: space-between;
@@ -281,7 +281,7 @@ cursor: pointer;
 .logo-container {
   text-align: center;
   position: absolute;
-  top: 4px;
+  top: 8px;
   right: 30px;
   display: flex;
   align-items: center;
@@ -294,7 +294,8 @@ cursor: pointer;
 }
 
 .logo-container img {
-  max-height: 20px;
+  max-height: 23px;
+  margin-left: 7px;
 }
 
 .logo-container .text-container {
@@ -361,7 +362,7 @@ footer a {
 @media only screen and (max-width: 600px) {
   header{
     top:0;
-    height: 30px;
+    height: 40px;
     justify-content: center;
     align-items: center;
     position: fixed;
@@ -415,8 +416,8 @@ display: none;
 .logo-container img {
   display: block;
   position: fixed;
-  top: 5px;
-  left:10px;
+  top: 7px;
+  left:7px;
   max-width: 30px;
 }
 
@@ -522,7 +523,7 @@ nav ul li a.active:hover {
 .hamburger{
   display: block;
   position: fixed;
-  top: 12px;
+  top: 15px;
   right:15px;
   z-index: 10000;
 }
