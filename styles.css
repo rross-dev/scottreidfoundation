@@ -41,7 +41,6 @@ header {
   display: flex;
   justify-content: space-between;
   align-items: center;
-  
 }
 
 .home,
@@ -56,7 +55,6 @@ header {
 
 
 .home {
-  margin-top: -30px;
   display: flex;
   justify-content: center;
   align-items: center;
@@ -69,7 +67,6 @@ header {
 }
 
 .main-page-logo{
-  margin-top: 5vh;
   height: 65vh;
 }
 
@@ -380,6 +377,11 @@ footer a {
     position: fixed;
     box-shadow: 0 2px 2px rgba(0,0,0, 0.2);
   }
+
+html {
+  scroll-padding-top: 38px; /* Adjust to your header height */
+}
+
 
   body{
     margin-top:40px;
