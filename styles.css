@@ -80,7 +80,6 @@ header {
   justify-content: center;
   align-items: center;
   background-color: #f4f4f4;
-  padding-bottom: 10vh;
 }
 
 .about p{
@@ -98,9 +97,11 @@ header {
 .scott-reid-photo{
   margin-right: 25px;
   width: 300px;
+  border-radius: 10px;
 }
 
 .scott-reid-photo-mobile{
+  border-radius: 5px;
   display: none;
 }
 
@@ -111,7 +112,6 @@ header {
   justify-content: center;
   align-items: center;
   background-color: #f4f4f4;
-  padding-bottom: 10vh;
 }
 
 .half{
@@ -131,10 +131,12 @@ header {
 }
 
 .left-align {
+  margin-top: -25px;
   align-self: flex-start; /* Align this item to the left */
 }
 
 .signup p{
+  width: 80%;
   padding-left: 10%;
 }
 
@@ -146,32 +148,37 @@ header {
 
 
 .signup-btn {
+  display: block;
+  width: 30%;
   font-family: 'Poppins', sans-serif;
-  margin-top:25px;
+  margin-top: 25px;
   margin-left: auto;
   margin-right: auto;
-  padding: 10px 25px;
-  background-color: #569546;
+  padding: 8px 0px;
+  background-color: #3B772D;
   border: 1px solid #ccc;
-  border-radius: 5px;
+  border-radius: 10px;
   color: white;
   font-size: 16px;
+  font-weight: 500;
   cursor: pointer;
-}
-
-.signup-btn:hover{
-  box-shadow: 0 0px 4px rgba(86, 149, 70, 0.4); 
-}
-
-.signup-btn a{
+  text-align: center;
   text-decoration: none;
-  color: white;
+  transition: 0.2s ease;
 }
+
+.signup-btn:hover {
+  transform: scale(1.05);
+  box-shadow: 0 0px 4px rgba(86, 149, 70, 0.4); 
+  color: yellow;
+}
+
 
 .carousel {
+  margin-left: 50px;
+  margin-top: -30px;
       width: 600px;
       overflow: hidden;
-      margin: 0 auto;
       justify-content: center;
       align-items: center;
     }
@@ -189,10 +196,13 @@ header {
 .carousel-item img {
     width: 100%;
     height: auto;
+    display: block;
+    border-radius: 15px; /* match parent if needed */
 }
 
+
 .contact{
-   height: 60vh;
+   height: 30vh;
   display: flex;
   justify-content: center;
   align-items: center;
@@ -201,7 +211,7 @@ header {
 }
 
 .contact-logo{
-  width: 400px;
+  width: 275px;
   margin-bottom: 17px;
   margin-top: 17px;
 }
@@ -395,10 +405,11 @@ html {
 }
 
  .home {
+  margin-top: -40px;
   display: flex;
   justify-content: center;
   align-items: center;
-  height: 60vh;
+  height: 100vh;
   width: 100vw;
   background-color: #f4f4f4;
 }
@@ -605,7 +616,7 @@ nav ul li a.active:hover {
 }
 
 .about p{
-  width: auto;
+  width: 88vw;
   font-size: 0.9rem;
   text-align: center;
   margin-left: 0;
@@ -627,7 +638,7 @@ nav ul li a.active:hover {
 .scott-reid-photo-mobile{
   display: flex;
   width: 40vw;
-  padding-bottom: 30px;
+  margin-bottom: 30px;
 }
 
 .signup{
@@ -643,6 +654,7 @@ nav ul li a.active:hover {
 }
 
 .half{
+  width: 90vw;
   display: flex;
   flex-direction: none;
   flex:0;
@@ -659,43 +671,29 @@ nav ul li a.active:hover {
 }
 
 .left-align {
+  margin: 0;
   align-self: flex-start; /* Align this item to the left */
 }
 
 
 .signup p{
-  margin: 5%;
-    font-size: 0.9rem;
   width: auto;
+  margin-top: 20px;
+  font-size: 0.9rem;
   text-align: left;
   padding-left: 0;
 }
 
 .signup h1{
   margin-top: 20px;
-  margin-left: 5%;
   margin-bottom: 0;
   text-align: left;
   padding-left: 0;
 }
 
 .signup-btn {
-  font-family: 'Poppins', sans-serif;
-  margin-top:25px;
-  margin-left: auto;
-  margin-right: auto;
-  padding: 10px 25px;
-  background-color: #569546;
-  border: 1px solid #ccc;
+  width: 100%;
   border-radius: 5px;
-  color: white;
-  font-size: 16px;
-  cursor: pointer;
-}
-
-
-.signup-btn:hover{
-  box-shadow: 0 0px 4px rgba(86, 149, 70, 0.4); 
 }
 
 .carousel {
@@ -717,6 +715,7 @@ nav ul li a.active:hover {
 }
 
 .carousel-item img {
+  border-radius: 0;
     width: 100%;
     height: auto;
 }
@@ -724,7 +723,7 @@ nav ul li a.active:hover {
 
 .contact{
   padding: 50px;
-   height: 40vh;
+   height: 20vh;
   display: flex;
   justify-content: center;
   align-items: center;
@@ -734,7 +733,7 @@ nav ul li a.active:hover {
 
 
 .contact-logo{
-  width: 300px;
+  width: 275px;
 }
 
 .contact h1{
@@ -830,11 +829,13 @@ nav ul li a.active:hover {
 }
 
 .left-align {
+  margin: 0;
   align-self: flex-start; /* Align this item to the left */
 }
 
 
 .signup p{
+  width: auto;
   margin: 5%;
     font-size: 0.9rem;
   width: auto;
@@ -852,11 +853,12 @@ nav ul li a.active:hover {
 }
 
 .signup-btn {
+  width: 30%;
   font-family: 'Poppins', sans-serif;
   margin-top:25px;
   margin-left: auto;
   margin-right: auto;
-  padding: 10px 25px;
+  padding: 10px 0px;
   background-color: #569546;
   border: 1px solid #ccc;
   border-radius: 5px;
@@ -888,6 +890,8 @@ nav ul li a.active:hover {
 }
 
 .carousel-item img {
+  margin: 0;
+  border-radius: 0;
     width: 100%;
     height: auto;
 }
@@ -990,11 +994,13 @@ nav ul li a.active:hover {
 }
 
 .left-align {
+  margin: 0;
   align-self: flex-start; /* Align this item to the left */
 }
 
 
 .signup p{
+  width: auto;
   margin: 5%;
     font-size: 0.9rem;
   width: auto;
@@ -1048,6 +1054,8 @@ nav ul li a.active:hover {
 }
 
 .carousel-item img {
+  margin: 0;
+  border-radius: 0;
     width: 100%;
     height: auto;
 }
