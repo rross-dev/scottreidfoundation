@@ -98,7 +98,7 @@ header {
 .scott-reid-photo{
   margin-right: 25px;
   width: 300px;
-  border-radius: 10px;
+  border-radius: 5px;
 }
 
 .scott-reid-photo-mobile{
@@ -157,7 +157,7 @@ header {
   padding: 8px 0px;
   background-color: #3B772D;
   border: 1px solid #ccc;
-  border-radius: 10px;
+  border-radius: 5px;
   color: white;
   font-size: 16px;
   font-weight: 500;
@@ -197,7 +197,7 @@ header {
     width: 100%;
     height: auto;
     display: block;
-    border-radius: 15px; /* match parent if needed */
+    border-radius: 5px; /* match parent if needed */
 }
 
 
