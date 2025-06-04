@@ -56,7 +56,7 @@ document.addEventListener("DOMContentLoaded", function () {
 
       sections.forEach((section) => {
         const rect = section.getBoundingClientRect();
-        const triggerLine = window.innerHeight - 100; // 50px from bottom
+        const triggerLine = window.innerHeight - 223; // 50px from bottom
         if (rect.top <= triggerLine && rect.bottom >= triggerLine) {
           currentSectionId = section.id;
         }
