@@ -27,6 +27,7 @@ body {
   margin: 0;
   padding: 0;
   border: none;
+  box-sizing: border-box;
 }
 
 
@@ -101,7 +102,6 @@ header {
 }
 
 .scott-reid-photo-mobile{
-  border-radius: 5px;
   display: none;
 }
 
@@ -313,8 +313,8 @@ cursor: pointer;
 }
 
 .logo-container img {
-  max-height: 23px;
-  margin-left: 7px;
+  max-height: 24px;
+  margin-left: 5px;
 }
 
 .logo-container .text-container {
@@ -325,10 +325,10 @@ cursor: pointer;
 
 
 .logo-container h1 {
-  font-weight: 600;
+  font-weight: 500;
   color: white;
   margin: 0;
-  font-size: 0.85rem;
+  font-size: 0.84rem;
 }
 
 
@@ -409,7 +409,7 @@ html {
   display: flex;
   justify-content: center;
   align-items: center;
-  height: 100vh;
+  height: 90vh;
   width: 100vw;
   background-color: #f4f4f4;
 }
@@ -419,7 +419,7 @@ display: none;
 
 .main-page-phone-logo{
   display: flex;
-  width: 100vw;
+  width: 100%;
 }
 
 .logo-container {
@@ -605,7 +605,7 @@ nav ul li a.active:hover {
 
 .about{
   height: auto;
-  width: 100vw;
+  width: 100%;
   display: flex;
   justify-content: center;
   align-items: center;
@@ -620,8 +620,6 @@ nav ul li a.active:hover {
   font-size: 0.9rem;
   text-align: center;
   margin-left: 0;
-  padding-left: 10% ;
-  padding-right: 10%;
 }
 
 .about h1{
@@ -644,7 +642,7 @@ nav ul li a.active:hover {
 .signup{
   padding-top: 1px;
   height: auto;
-  width: 100vw;
+  width: 100%;
   display: flex;
   justify-content: center;
   align-items: center;
@@ -755,11 +753,13 @@ nav ul li a.active:hover {
       display: none;
     }
 
-  .main-page-phone-logo{
-    display: flex;
-    width: 100vw;
-    height: auto;
-  }
+.main-page-phone-logo {
+  display: flex;
+  width: 100%;
+  height: auto;
+  box-sizing: border-box;
+}
+
 
     .about{
   height: auto;
@@ -836,7 +836,7 @@ nav ul li a.active:hover {
 
 .signup p{
   width: auto;
-  margin: 5%;
+  margin: 0;
     font-size: 0.9rem;
   width: auto;
   text-align: left;
@@ -845,7 +845,7 @@ nav ul li a.active:hover {
 
 .signup h1{
   margin-top: 20px;
-  margin-left: 5%;
+  margin-left: 0;
   margin-bottom: -25px;
   text-align: left;
   font-size: 1.3rem;
@@ -1082,3 +1082,9 @@ nav ul li a.active:hover {
     padding: 5%;
   }
 }
+
+/*
+* {
+  outline: 1px solid red !important;
+}
+*/
