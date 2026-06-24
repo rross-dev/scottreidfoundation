@@ -47,6 +47,7 @@ header {
 .home,
 .about,
 .signup,
+.sponsors,
 .contact {
   top: 0;
   z-index: 1; 
@@ -103,6 +104,20 @@ header {
 
 .scott-reid-photo-mobile{
   display: none;
+}
+
+.sponsors{
+  height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: #f4f4f4;
+}
+
+.sponsors-img{
+  height: 80vh;
+  border: 2px solid black;
+  border-radius: 5px;
 }
 
 .signup{
@@ -400,6 +415,7 @@ html {
   .home,
 .about,
 .signup,
+.sponsors,
 .contact {
   box-shadow: 0 2px 4px rgba(0,0,0, 0.3);
 }
@@ -637,6 +653,17 @@ nav ul li a.active:hover {
   display: flex;
   width: 40vw;
   margin-bottom: 30px;
+}
+
+.sponsors{
+  height: auto;
+  padding-top: 50px;
+  padding-bottom: 50px;
+}
+
+.sponsors-img{
+  height: auto;
+  width: 80vw;
 }
 
 .signup{
